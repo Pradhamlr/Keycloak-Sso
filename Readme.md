@@ -1,4 +1,4 @@
-# Digital Ocean Server Setup with Keycloak SSO Integrated with Drupal, Django and Php
+# Digital Ocean Server Setup with Keycloak SSO Integrated with Drupal, Django and PHP
 
 ## SSO Integration Overview: Drupal, Django, PHP
 
@@ -180,20 +180,6 @@ Deploy the PHP application, configure the Apache virtual host ([View full file](
 
 ---
 
-## 8. Final Notes, Evaluation Criteria & Live Demo Links
-
-- Ensure all services are running and accessible from the public internet.
-- All SSO flows should be tested and screenshots included.
-- Provide live URLs for evaluation.
-
-| Service           | Live URL                         |
-|-------------------|----------------------------------|
-| Droplet Public IP | https://139.59.87.233             |
-| Drupal 11         | https://drupal.pradhamlr.tech    |
-| Django App        | https://django.pradhamlr.tech    |
-| PHP App           | https://php.pradhamlr.tech       |
-
----
 
 ## Repository Structure
 
@@ -211,7 +197,7 @@ Deploy the PHP application, configure the Apache virtual host ([View full file](
 │   ├── gunicorn-service.png
 │   ├── keycloak-systemd-service.png
 │   ├── php-apache-vhost.png
-│   ├── Drupal-Dependencies.png
+│   ├── django-keycloak-conf.png
 │   └── ...
 ├── local-dev/
 │   └── Vagrantfile
@@ -220,8 +206,6 @@ Deploy the PHP application, configure the Apache virtual host ([View full file](
 ---
 
 **End of Guide.**
-
----
 
 ## DNS Configuration
 
