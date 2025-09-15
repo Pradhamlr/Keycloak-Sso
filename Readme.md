@@ -1,4 +1,4 @@
-# DigitalOcean Server Setup with Keycloak SSO Integrated with Drupal, Django and Php
+# Digital Ocean Server Setup with Keycloak SSO Integrated with Drupal, Django and Php
 
 ## SSO Integration Overview: Drupal, Django, PHP
 
