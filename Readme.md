@@ -55,6 +55,9 @@ Update the system and install all required core packages for web, database, and 
 ![Core Packages](snippets/5-Httpd_Php-Status.png)
 *Apache, PHP, and MariaDB installed and running*
 
+![MariaDB Status](snippets/6-MariaDB-Status.png)
+*MariaDB service status after installation and configuration*
+
 ---
 
 ## 4. Keycloak Installation, Configuration & Service Setup
@@ -93,6 +96,12 @@ Create the Drupal database, install Drupal, and configure the Apache virtual hos
 ![Drupal Install](snippets/12-Drupal-Installation.png)
 *Drupal installation via Composer*
 
+![Drupal Home](snippets/13-Drupal-Home.png)
+*Drupal site home page after installation*
+
+![Drupal Admin Interface](snippets/14-Drupal-AdminInterface.png)
+*Drupal admin dashboard interface*
+
 ### Keycloak SSO Integration
 
 Install and enable the Keycloak module, then configure it with your Keycloak server and client credentials in the Drupal admin UI.
@@ -100,9 +109,27 @@ Install and enable the Keycloak module, then configure it with your Keycloak ser
 ![Drupal Keycloak Module](snippets/16-Drupal-KeycloakModule.png)
 *Drupal Keycloak module configuration*
 
+![Keycloak Drupal Config](snippets/15-Keycloak-DrupalConfig.png)
+*Keycloak client configuration for Drupal SSO*
+
+![Drupal SSO Login](snippets/17-Drupal-SsoLogin.png)
+*Drupal login page with SSO option*
+
+![Drupal Keycloak Redirect](snippets/18-Drupal-KeycloakRedirect.png)
+*Redirect to Keycloak for authentication*
+
+![Drupal User](snippets/19-Drupal-User.png)
+*Drupal user profile after SSO login*
+
 ---
 
 ## 6. Django Project Setup, Gunicorn & Keycloak SSO Integration
+
+![Django Home](snippets/25-Django-Home.png)
+*Django application home page*
+
+![Django Admin Interface](snippets/28-Django-Admin.png)
+*Django admin dashboard*
 
 ### Database & Django Project Setup
 
@@ -116,9 +143,18 @@ Install and configure the mozilla-django-oidc library for SSO integration, follo
 ![Django Keycloak Login](snippets/26-Djangokeycloak-login.png)
 *Django login via Keycloak SSO*
 
+![Django User Session](snippets/27-Django-UserSession.png)
+*Django user session after SSO login*
+
 ---
 
 ## 7. PHP App Setup & Keycloak SSO Integration
+
+![PHP App Landing](snippets/21-Php-Landing.png)
+*PHP application landing page*
+
+![PHP Keycloak Config](snippets/20-Php-Keycloakconfig.png)
+*Keycloak client configuration for PHP SSO*
 
 ### PHP App Deployment
 
@@ -126,6 +162,9 @@ Deploy the PHP application, configure the Apache virtual host ([View full file](
 
 ![PHP Keycloak Login](snippets/22-Phpkeycloak-Login.png)
 *PHP app login via Keycloak SSO*
+
+![PHP User](snippets/23-Php-User.png)
+*PHP user profile after SSO login*
 
 ---
 
