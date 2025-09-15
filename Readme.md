@@ -217,3 +217,12 @@ Deploy the PHP application, configure the Apache virtual host ([View full file](
 ---
 
 **End of Guide.**
+
+---
+
+## DNS Configuration
+
+The DNS records for all application domains (Drupal, Django, PHP) and the public IP are configured as shown below. This ensures that each subdomain points to the correct server and supports secure SSO flows.
+
+![DNS Configuration](config/domain-conf.png)
+*DNS records setup for all application domains and SSO integration*
