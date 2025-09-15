@@ -1,4 +1,16 @@
-# DigitalOcean Keycloak SSO DeploymentDigital Ocean Server Setup with Keycloak SSO
+# DigitalOcean Server Setup with Keycloak SSO Integrated with Drupal, Django and Php
+
+## SSO Integration Overview: Drupal, Django, PHP
+
+This deployment demonstrates seamless Single Sign-On (SSO) integration for three major web application stacks using Keycloak:
+
+- **Drupal 11**: Utilizes the Keycloak module for Drupal, enabling users to authenticate via Keycloak. The module is configured in the Drupal admin UI, mapping Keycloak users and roles to Drupal accounts. SSO login and user provisioning are handled automatically, providing a unified authentication experience.
+
+- **Django**: Integrates with Keycloak using the `mozilla-django-oidc` library. Django is configured as an OIDC client, allowing users to log in with their Keycloak credentials. The integration supports secure session management and user mapping, ensuring Django applications benefit from centralized identity management.
+
+- **PHP Application**: Implements SSO using OIDC client libraries for PHP. The application is registered as a client in Keycloak, and authentication flows are managed via OIDC endpoints. Users can log in to the PHP app using their Keycloak accounts, with session and user data synchronized securely.
+
+All integrations are production-ready, leveraging secure OIDC flows, and are validated with screenshots and configuration images throughout this guide.
 
 ## How to Use This Repository
 
