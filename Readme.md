@@ -10,12 +10,12 @@ This repository provides a step-by-step, production-grade tutorial for deploying
 
 This project demonstrates a professional deployment of Keycloak SSO on a DigitalOcean droplet, integrating SSO with Drupal 11, Django, and a PHP application. The guide covers server hardening, firewall setup, application deployment, and SSO configuration, with all steps validated by screenshots and config files.
 
-| Service           | Live URL (Placeholder)           |
+| Service           | Live URL                         |
 |-------------------|----------------------------------|
-| Droplet Public IP | `http://your_droplet_ip`         |
-| Drupal 11         | `http://your_drupal_domain.com`  |
-| Django App        | `http://your_django_domain.com`  |
-| PHP App           | `http://your_php_app_domain.com` |
+| Droplet Public IP | http://139.59.87.233             |
+| Drupal 11         | https://drupal.pradhamlr.tech    |
+| Django App        | https://django.pradhamlr.tech    |
+| PHP App           | https://php.pradhamlr.tech       |
 
 ---
 
@@ -174,12 +174,12 @@ Deploy the PHP application, configure the Apache virtual host ([View full file](
 - All SSO flows should be tested and screenshots included.
 - Provide live URLs for evaluation.
 
-| Service           | Live URL (Placeholder)           |
+| Service           | Live URL                         |
 |-------------------|----------------------------------|
-| Droplet Public IP | `http://your_droplet_ip`         |
-| Drupal 11         | `http://your_drupal_domain.com`  |
-| Django App        | `http://your_django_domain.com`  |
-| PHP App           | `http://your_php_app_domain.com` |
+| Droplet Public IP | https://139.59.87.233             |
+| Drupal 11         | https://drupal.pradhamlr.tech    |
+| Django App        | https://django.pradhamlr.tech    |
+| PHP App           | https://php.pradhamlr.tech       |
 
 ---
 
