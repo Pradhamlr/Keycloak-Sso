@@ -199,6 +199,7 @@ Deploy the PHP application, configure the Apache virtual host ([View full file](
 
 ```text
 .
+├── Task.md
 ├── README.md
 ├── snippets/
 │   ├── 1-droplet.png
@@ -212,6 +213,8 @@ Deploy the PHP application, configure the Apache virtual host ([View full file](
 │   ├── php-apache-vhost.png
 │   ├── Drupal-Dependencies.png
 │   └── ...
+├── local-dev/
+│   └── Vagrantfile
 ```
 
 ---
