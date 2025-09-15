@@ -150,7 +150,7 @@ Set up Gunicorn as a systemd service ([View full file](config/gunicorn-service.p
 
 ### Keycloak SSO Integration (Django)
 
-Install and configure the mozilla-django-oidc library for SSO integration, following the provided config file ([View full file](config/Drupal-Dependencies.png)).
+Install and configure the mozilla-django-oidc library for SSO integration, following the provided config file ([View full file](config/django-keycloak-conf.png)).
 
 ![Django Keycloak Login](snippets/26-Djangokeycloak-login.png)
 *Django login via Keycloak SSO*
